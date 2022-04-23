@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+	<title>Paper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Balsamiq+Sans:wght@700&family=Dela+Gothic+One&family=Irish+Grover&family=Montserrat:wght@500&family=Oswald&family=Rubik&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="css/main.css">
+<body>
+  <header>
+    <div class="container">
+          <div class="menu">
+        <h1 class="h1-logo ">Paper</h1>
+<input id="toggle" type="checkbox"></input>
+<label for="toggle" class="hamburger">
+  <div class="top-bun"></div>
+  <div class="meat"></div>
+  <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <nav>
+     <ul id="menu">
+       <li><a href="" id="mb-1" >Blog</a></li>
+       <li><a href="" id="mb-1">About Me</a></li>
+        <li><a href="" id="mb-1">Сontacts</a></li>
+    </ul>
+    </nav>
+  </div>
+</div>
+ 
+    </div>
+    </div>
+  </header>
+<!-- 
+Please note, that you can apply .m--global-blending-active to .fnc-slider 
+to enable blend-mode for all background-images or apply .m--blend-bg-active
+to some specific slides (.fnc-slide). It's disabled by default in this demo,
+because it requires specific images, where more than 50% of bg is transparent or monotone
+
+-->
+<div class="demo-cont">
+  <!-- slider start -->
+  <div class="fnc-slider example-slider">
+    <div class="fnc-slider__slides">
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-green m--active-slide">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Style &</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>Beauty</span>
+              </div>
+            </h2>
+              <button type="button" class="fnc-slide__action-btn">
+            New fashion brand
+              <span data-text="New fashion brand">New fashion brand</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-dark">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Capturing</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>the sunlight</span>
+              </div>
+            </h2>
+            <button type="button" class="fnc-slide__action-btn">
+             Fashion Photoshoot
+              <span data-text="Fashion Photoshoot">Fashion Photoshoot</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-red">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>The shape</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>water flowers</span>
+              </div>
+            </h2>
+                <button type="button" class="fnc-slide__action-btn">
+           Book Cover
+              <span data-text="Book Cover">Book Cover</span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-blue">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Looking on</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>the other side</span>
+              </div>
+            </h2>
+            <button type="button" class="fnc-slide__action-btn">
+              Portrait photography
+              <span data-text="Portrait photography">Portrait photography</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+    </div>
+    <nav class="fnc-nav">
+      <div class="fnc-nav__bgs">
+        <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+        <div class="fnc-nav__bg m--navbg-dark"></div>
+        <div class="fnc-nav__bg m--navbg-red"></div>
+        <div class="fnc-nav__bg m--navbg-blue"></div>
+      </div>
+      <div class="fnc-nav__controls">
+        <button class="fnc-nav__control">
+         Style & Beauty
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+         Capturing the sunlight
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+         The shape water flowers
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+         LOOKING ON
+THE OTHER SIDE
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+  <!-- slider end -->
+  
+</div>
+<script src="three-2.min.js"></script>
+<script src="vanta.globe.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
